@@ -1,11 +1,11 @@
-# 🧬 Genetic Analysis of Bacteria with PCA
+# 🧬 Multi-Class Bacterial Species Identification from High-Dimensional Gene Expression Data
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-orange?logo=scikit-learn)
 ![Plotly](https://img.shields.io/badge/Plotly-interactive-blueviolet?logo=plotly)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A machine learning pipeline for classifying bacterial species from high-dimensional genetic expression data. This project applies **Principal Component Analysis (PCA)** for dimensionality reduction and uses an **Extra Trees Classifier** to distinguish between 10 bacterial species, comparing model performance with and without PCA.
+A machine learning pipeline for identifying bacterial species from high-dimensional gene expression data (286 genetic features, 10 species). This project applies **Principal Component Analysis (PCA)** for dimensionality reduction and uses an **Extra Trees Classifier** for multi-class identification, comparing model performance with and without PCA compression.
 
 ---
 
@@ -123,7 +123,7 @@ The notebook produces the following interactive (Plotly) and static charts:
 ## 📁 Project Structure
 
 ```
-genetic-analysis-bacteria-pca/
+bacterial-species-identification-gene-expression/
 │
 ├── Genetic_Analysis_of_Bacteria_with_PCA.ipynb   # Main notebook
 ├── README.md                                      # This file
@@ -162,8 +162,8 @@ pip install -r requirements.txt
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/genetic-analysis-bacteria-pca.git
-cd genetic-analysis-bacteria-pca
+git clone https://github.com/YOUR_USERNAME/bacterial-species-identification-gene-expression.git
+cd bacterial-species-identification-gene-expression
 ```
 
 ### 2. Install dependencies
